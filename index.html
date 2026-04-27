@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parallel Lives Premium</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+
+<body>
+
+<div class="nav">
+  <button onclick="go('artist')">Artist</button>
+  <button onclick="go('corporate')">Corporate</button>
+  <button onclick="go('entrepreneur')">Entrepreneur</button>
+  <button onclick="go('traveler')">Traveler</button>
+  <button onclick="go('scientist')">Scientist</button>
+</div>
+
+<!-- SECTIONS -->
+<section id="artist" class="life">
+  <div class="bg" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600')"></div>
+  <div class="content" data-type="artist">Artist</div>
+</section>
+
+<section id="corporate" class="life">
+  <div class="bg" style="background-image:url('https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=1600')"></div>
+  <div class="content" data-type="corporate">Corporate</div>
+</section>
+
+<section id="entrepreneur" class="life">
+  <div class="bg" style="background-image:url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600')"></div>
+  <div class="content" data-type="entrepreneur">Entrepreneur</div>
+</section>
+
+<section id="traveler" class="life">
+  <div class="bg" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600')"></div>
+  <div class="content" data-type="traveler">Traveler</div>
+</section>
+
+<section id="scientist" class="life">
+  <div class="bg" style="background-image:url('https://visionachievement.uk/wp-content/uploads/2025/01/female-researcher-laboratory-with-test-tubes-male-colleague.webp')"></div>
+  <div class="content" data-type="scientist">Scientist</div>
+</section>
+
+<!-- PANEL -->
+<div id="panel" class="panel">
+  <button id="close">✖</button>
+  <div class="panel-body">
+
+    <img id="panelImg" />
+    <h1 id="title"></h1>
+
+    <div class="tabs">
+      <button onclick="showTab('journey')">Journey</button>
+      <button onclick="showTab('salary')">Salary</button>
+      <button onclick="showTab('growth')">Growth</button>
+    </div>
+
+    <p id="desc"></p>
+
+    <div class="extra-boxes">
+      <div class="box">Daily Reality</div>
+      <div class="box">Challenges</div>
+      <div class="box">Mindset</div>
+      <div class="box">Future Scope</div>
+    </div>
+
+    <div class="stats">
+      <div class="card"><h3 id="stat1"></h3><p>Passion</p></div>
+      <div class="card"><h3 id="stat2"></h3><p>Income</p></div>
+      <div class="card"><h3 id="stat3"></h3><p>Freedom</p></div>
+    </div>
+
+    <canvas id="chart"></canvas>
+
+  </div>
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
