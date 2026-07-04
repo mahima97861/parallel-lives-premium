@@ -79,7 +79,7 @@ Designed to provide a seamless experience across:
 * Desktop
 * Laptop
 * Tablet
-* Mobile Devices
+* Mobile Devicess
 
 ---
 
