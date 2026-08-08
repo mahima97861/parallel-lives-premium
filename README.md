@@ -8,6 +8,11 @@ The project focuses on delivering a premium user experience using modern front-e
 
 ---
 
+## Live Demo
+https://mahima97861.github.io/parallel-lives-premium/
+
+---
+
 ## 🎯 Project Vision
 
 Every career path offers unique opportunities, challenges, and growth trajectories. This platform aims to help users visualize and compare these possibilities through an engaging and interactive interface.
