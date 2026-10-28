@@ -1,4 +1,4 @@
-# 🌌 Parallel Lives Premium UI
+# 🌌 Parallel Live's Premium UI
 
 ## 🚀 Overview
 
