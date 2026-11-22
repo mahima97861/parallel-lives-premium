@@ -48,10 +48,10 @@ Each path presents unique insights, growth trends, and career progression.
 
 Powered by **GSAP** for:
 
-* Page transitions
-* Element reveals
-* Interactive motion effects
-* Enhanced storytelling experience
+* Page transitions.
+* Element reveals.
+* Interactive motion effects.
+* Enhanced storytelling experience.
 
 ---
 
